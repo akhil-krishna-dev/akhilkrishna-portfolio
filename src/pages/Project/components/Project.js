@@ -57,7 +57,7 @@ const Project = ({setPreviewImage,project}) => {
 
             <div className="right-section">
                 <div className="proj-video-container">
-                    <video className='proj-video' controls muted>
+                    <video className='proj-video' controls autoPlay muted>
                         <source src={videoUrl} type='video/mp4' />
                     </video>
                 </div>

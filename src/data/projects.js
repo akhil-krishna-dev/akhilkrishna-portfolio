@@ -199,7 +199,7 @@ export const chatApplication = {
 
 export const eCommerce = {
     title:"E-Commerce Project",
-    videoUrl:"https://www.dropbox.com/scl/fi/jk39dvnebuzzvz2358d2o/e_shop.mp4?rlkey=ff75z2bqywy36mgjbnv4w6ym4&st=uv9g7en2&raw=1",
+    videoUrl:"https://www.dropbox.com/scl/fi/te66wsykb21iw7yciq95v/e_shop_1.mp4?rlkey=3z4zuqsznxuumwoank241dtok&st=bbn63b5m&raw=1",
     links:{
         liveLink:"https://e-shop-personal-af87f.web.app/#/",
         gitHubFrontendLink:"https://github.com/akhilkrishnair/e-commerce-react-frontend",

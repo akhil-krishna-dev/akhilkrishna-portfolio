@@ -1,52 +1,59 @@
-import React from 'react'
+import React from "react";
 
 const Skills = () => {
-  return (
-    <div className='resume-container'>
-        <div className='left-section'>
-            <h2 className='section-title'>Skills<br/>& Expertise</h2>
+    return (
+        <div className="resume-container">
+            <div className="left-section">
+                <h2 className="section-title">
+                    Skills
+                    <br />& Expertise
+                </h2>
+            </div>
+            <div className="right-section">
+                <div className="section-description">
+                    <ul>
+                        Languages :<li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div className="section-description">
+                    <ul>
+                        Frameworks/Libraries :<li>Django</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                    </ul>
+                </div>
+                <div className="section-description">
+                    <ul>
+                        Web Technologies :<li>REST Api</li>
+                        <li>WebSockets</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div className="section-description">
+                    <ul>
+                        Databases :<li>PostgreSQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div className="section-description">
+                    <ul>
+                        Tools :<li>Git</li>
+                        <li>AWS (EC2, S3)</li>
+                        <li>Nginx</li>
+                    </ul>
+                </div>
+                <div className="section-description">
+                    <ul>
+                        Additional skills :<li>OOP</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div className='right-section'>
-            <div className='section-description'>
-                <ul> Languages :
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                </ul> 
-            </div>
-            <div className='section-description'>
-                <ul> Frameworks :
-                    <li>Django</li> 
-                    <li>React</li> 
-                    <li>Redux</li>
-                </ul> 
-            </div>
-            <div className='section-description'>
-                <ul> Web Technologies :
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li> 
-                </ul> 
-            </div>
-            <div className='section-description'>
-                <ul> Databases :
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                </ul> 
-            </div>
-            <div className='section-description'>
-                <ul> Tools :
-                    <li>Git</li>
-                    <li>AWS (EC2, S3)</li>
-                    <li>Nginx</li>
-                    <li>Rest Api</li>
-                    <li>Web Socket</li>
-                    <li>OOP</li>
-                </ul> 
-            </div>
-        </div>
-    </div>
-  )
-}
+    );
+};
 
 // <div className='right-section'>
 //     <div className='section-description'>
@@ -66,4 +73,4 @@ const Skills = () => {
 //     </div>
 // </div>
 
-export default Skills
+export default Skills;
