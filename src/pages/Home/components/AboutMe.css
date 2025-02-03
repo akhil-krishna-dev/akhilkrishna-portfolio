@@ -19,25 +19,18 @@
     font-weight: 320;
 }
 
-.pyth {
-    color: rgb(29, 117, 171);
-    font-weight: 600;
-}
-.dj {
-    font-weight: 600;
-    color: rgb(163, 163, 28);
-}
-.ngo {
-    color: green;
-    font-weight: 600;
-}
-.react {
-    color: rgb(35, 154, 238);
-    font-weight: 600;
-}
-.js {
-    color: rgb(163, 163, 28);
-    font-weight: bold;
+
+.bio-container .about-me p .hands-on-skills{
+    color: transparent;
+    background-image:linear-gradient(
+        to right,
+        rgb(29, 117, 171),
+        rgb(163, 163, 28),
+        green,
+        rgb(35, 154, 238),
+        rgb(163, 163, 28)
+         ) ;
+    -webkit-background-clip: text;
 }
 
 
