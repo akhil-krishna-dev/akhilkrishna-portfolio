@@ -1,76 +1,66 @@
 import React from "react";
+import Skill from "./Skill";
 
 const Skills = () => {
-    return (
-        <div className="resume-container">
-            <div className="left-section">
-                <h2 className="section-title">
-                    Skills
-                    <br />& Expertise
-                </h2>
-            </div>
-            <div className="right-section">
-                <div className="section-description">
-                    <ul>
-                        Languages :<li>Python</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div className="section-description">
-                    <ul>
-                        Frameworks/Libraries :<li>Django</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                    </ul>
-                </div>
-                <div className="section-description">
-                    <ul>
-                        Web Technologies :<li>REST Api</li>
-                        <li>WebSockets</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div className="section-description">
-                    <ul>
-                        Databases :<li>PostgreSQL</li>
-                        <li>MySQL</li>
-                    </ul>
-                </div>
-                <div className="section-description">
-                    <ul>
-                        Tools :<li>Git</li>
-                        <li>AWS (EC2, S3)</li>
-                        <li>Nginx</li>
-                    </ul>
-                </div>
-                <div className="section-description">
-                    <ul>
-                        Additional skills :<li>OOP</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    );
+	const data = [
+		{
+			title: "Languages",
+			skills: ["Python", "JavaScript"],
+		},
+		{
+			title: "Frameworks/Libraries",
+			skills: [
+				"Django",
+				"Django Rest Framework",
+				"Django Channels",
+				"React",
+				"Redux",
+			],
+		},
+		{
+			title: "Web Technologies",
+			skills: [
+				"Web Services ( REST Api )",
+				"WebSockets",
+				"WebRTC",
+				"Nginx",
+				"HTML",
+				"CSS",
+				"Bootstrap",
+			],
+		},
+		{
+			title: "Databases",
+			skills: ["PostgreSQL", "MySQL"],
+		},
+		{
+			title: "Tools",
+			skills: ["Docker", "Git", "GitHub", "Postman"],
+		},
+		{
+			title: "Cloud Services",
+			skills: ["AWS (EC2, S3, RDS)", "Python Anywhere", "Firebase Web"],
+		},
+		{
+			title: "Additional skills",
+			skills: ["OOP", "AJAX"],
+		},
+	];
+	return (
+		<div className="resume-container">
+			<div className="left-section">
+				<h2 className="section-title">
+					Skills
+					<br />& Expertise
+				</h2>
+			</div>
+			<div className="right-section">
+				{data.map((item, index) => (
+					<Skill key={index} data={item} />
+				))}
+			</div>
+		</div>
+	);
 };
-
-// <div className='right-section'>
-//     <div className='section-description'>
-//         <heading> Languages :</heading> Python, JavaScript
-//     </div>
-//     <div className='section-description'>
-//         <heading> Frameworks :</heading> Django, React, Redux
-//     </div>
-//     <div className='section-description'>
-//         <heading> Web Technologies :</heading> HTML, CSS, Bootstrap
-//     </div>
-//     <div className='section-description'>
-//         <heading> Databases :</heading> PostgreSQL, MySQL
-//     </div>
-//     <div className='section-description'>
-//         <heading> Tools :</heading> Git, AWS (EC2, S3), Nginx, Web Socket, OOP
-//     </div>
-// </div>
 
 export default Skills;
