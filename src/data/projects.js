@@ -34,7 +34,7 @@ export const chatApplication = {
 	videoUrl:
 		"https://www.dropbox.com/scl/fi/0vif0i1cm36w4pvsg8lvd/chat_application_-online-video-cutter.com-_2.mp4?rlkey=tgnekpyi30xihikq098qbyxfq&st=dmk86kwq&raw=1",
 	links: {
-		liveLink: null,
+		liveLink: "https://www.chatapp.akhilkrishna.online",
 		gitHubFrontendLink:
 			"https://github.com/akhilkrishnair/chat-app-react-frontend",
 		gitHubBackendLink:
@@ -273,7 +273,7 @@ export const eCommerce = {
 	videoUrl:
 		"https://www.dropbox.com/scl/fi/te66wsykb21iw7yciq95v/e_shop_1.mp4?rlkey=3z4zuqsznxuumwoank241dtok&st=bbn63b5m&raw=1",
 	links: {
-		liveLink: "https://e-shop-personal-af87f.web.app/#/",
+		liveLink: "https://www.eshop.akhilkrishna.online",
 		gitHubFrontendLink:
 			"https://github.com/akhilkrishnair/e-commerce-react-frontend",
 		gitHubBackendLink:
