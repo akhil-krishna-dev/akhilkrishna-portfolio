@@ -1,139 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-
-@keyframes project-container{
-    from{
-        opacity: 0.1;
-        transform: translateY(20%);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0%);
-    }
+@keyframes project-container {
+	from {
+		opacity: 0.1;
+		transform: translateY(20%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%);
+	}
 }
-.container{
-    padding: 10px 200px 20px 200px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.container .left-section{
-    padding: 40px 0px;
-    width: 45%;
+.container {
+	padding: 10px 200px 20px 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-.proj-title{
-    letter-spacing: 1px;
-    font-size: 25px;
-    font-weight: 800;
-    margin: 10px 0 15px 0;
-}
-.left-section .description{
-    font-family: League Spartan;
-    font-weight: 330;
-    font-size: 19px;
-    line-height: 26px;
-    letter-spacing: 0.6px;
+.container .left-section {
+	padding: 40px 0px;
+	width: 45%;
 }
 
-.container .right-section{
-    padding: 40px 0px;
-    margin-left: 3em;
-    margin-top: 60px;
-    width: 45%;
+.proj-title {
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: 800;
+	margin: 10px 0 15px 0;
+}
+.left-section .description {
+	font-family: League Spartan;
+	font-weight: 330;
+	font-size: 19px;
+	line-height: 26px;
+	letter-spacing: 0.6px;
 }
 
-.proj-video-container{
-    width: 100%;
-    height: 18em;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    padding: 10px;
-
-}
-.proj-video{
-    max-width: 100%;
-    max-height: 100%;
+.container .right-section {
+	padding: 40px 0px;
+	margin-left: 3em;
+	margin-top: 60px;
+	width: 45%;
 }
 
-
+.proj-video-container {
+	width: 100%;
+	height: 18em;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	padding: 10px;
+}
+.proj-video {
+	width: 100%;
+	max-height: 100%;
+}
 
 /*  ---- media query starts -----  */
 
-@media (min-width:769px){
-   .container{
-        animation: project-container 0.5s ease-in-out;
-   }
+@media (min-width: 769px) {
+	.container {
+		animation: project-container 0.5s ease-in-out;
+	}
 }
 
-@media (min-width:992px) and (max-width:1200px){
-    .right-section {
-        margin-left: 1em;
-    }
+@media (min-width: 992px) and (max-width: 1200px) {
+	.right-section {
+		margin-left: 1em;
+	}
 
-    .container {
-        padding: 40px 60px 20px 60px;
-    }
-
+	.container {
+		padding: 40px 60px 20px 60px;
+	}
 }
-
 
 @media (min-width: 769px) and (max-width: 991px) {
-    .container .right-section {
-        margin-left: 1em;
-        padding-top: 80px;
-        margin-top: 0px;
-    }
+	.container .right-section {
+		margin-left: 1em;
+		padding-top: 80px;
+		margin-top: 0px;
+	}
 
-    .container {
-        padding: 40px 10px 0px 10px;
-    }
+	.container {
+		padding: 40px 10px 0px 10px;
+	}
 
-    .proj-video-container {
-        width: 16em;
-        height: 12em;
-    }
-
-
+	.proj-video-container {
+		width: 16em;
+		height: 12em;
+	}
 }
 
-@media (max-width:768px){
-    .container{
-        padding: 0px;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .container .each-details-container.project-links{
-        margin-top: 30px;
-    }
-    
-    .container .right-section {
-        margin-left: 0em;
-        padding: 10px 4px 10px 4px;
-        width: -moz-fit-content;
-        width: fit-content;
-    }
+@media (max-width: 768px) {
+	.container {
+		padding: 0px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container .each-details-container.project-links {
+		margin-top: 30px;
+	}
 
-    .proj-video-container {
-        width: 42em;
-        height: 22em;
-    }
-    .description{
-        line-height: 22px;
-    }
-    .container .left-section{
-        padding: 10px 10px;
-        width: 100%;
-    }
+	.container .right-section {
+		margin-left: 0em;
+		padding: 10px 4px 10px 4px;
+		width: -moz-fit-content;
+		width: fit-content;
+	}
 
+	.proj-video-container {
+		width: 42em;
+		height: 22em;
+	}
+	.description {
+		line-height: 22px;
+	}
+	.container .left-section {
+		padding: 10px 10px;
+		width: 100%;
+	}
 }
 
-@media (max-width:489px){
-    .proj-video-container{
-        width: 100%;
-        height: 12em;
-    }
+@media (max-width: 489px) {
+	.proj-video-container {
+		width: 100%;
+		height: 12em;
+	}
 }
